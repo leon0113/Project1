@@ -15,6 +15,7 @@ h1{
 .half-width{
     padding: 2%;
     width: 50%;
+    
 }
 
 .half-width img{
@@ -35,4 +36,37 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right ;
+}
+.color-add{
+    color: orange;
+}
+.last-part{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px greenyellow;
+    border-radius: 10px;
+    border-left: 10px;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    
+}
+
+#stpart{
+    border-left: 7px solid;
+ border-image: linear-gradient(blue,cyan);
+ border-image-slice: 1;
+}
+#ndpart{
+    border-left: 7px solid;
+ border-image: linear-gradient(rgb(81, 255, 0),rgb(255, 0, 234));
+ border-image-slice: 1;
+}
+footer p{
+   text-align: center;
 }
